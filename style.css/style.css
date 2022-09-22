@@ -1,0 +1,44 @@
+body{
+    background-color: #f3f1ff;
+}
+.my-profile{
+    width: 50px;
+  
+}
+
+nav ul li{
+    padding-right: 1rem;
+}
+.main-sec{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+}
+main div img{
+    width: 56px;
+    transition: .5s;
+    
+    
+}
+main div img:hover{
+    transform:scale(1.2);
+   
+    
+}
+main div a{
+    padding-left: 2rem;
+    text-decoration: none;
+    color: #2a2a2a;
+    transition: .4s;
+}
+main div a:hover{
+    transform: scale(1.1);
+    color: #0095ff;
+}
+.player{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    font-weight: 600;
+
+}
